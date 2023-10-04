@@ -1,0 +1,23 @@
+   0 mkdir /home/animals /home/animals/cats /home/animals/dogs /home/animals/fish
+   1 touch /home/animals/cats/Garfield /home/animals/dogs/Pluto /home/animals/fish/Nemo
+   2 mkdir /home/planets
+   3 touch /opt/Venus /opt/Jupiter /opt/Mars /opt/Mercury
+   4 mv /opt/Venus /opt/Jupiter /opt/Mars /opt/Mercury /home/planets
+   5 touch /tmp/adam
+   6 mkdir /home/humans
+   7 cp /tmp/adam /home/humans
+   8 touch /tmp/evA
+   9 mv /tmp/evA /opt/eve
+  10 mv /opt/eve /home/humans
+  11 tree /home
+  12 history
+  13 history > homework_linux1.txt
+  14 history > history_1.txt
+  15 export_file > history_1.txt
+  16 export_file > history1.txt
+  17 history
+  18 export_file > history_1.txt
+  19 export_file > homework1.txt
+  20 export_file > history1
+  21 history >> homework1.txt
+  22 history >> homework.06.10.2023
