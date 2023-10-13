@@ -1,0 +1,9 @@
+   0 cd /tmp
+   1 vi file.txt
+   2 df -h | head -3 > /tmp/file.txt
+   3 ls -la
+   4 chmod g+w file.txt
+   5 chmod u-r file.txt
+   6 chmod o+x file.txt
+   7 ls -l
+   8 history >> homework.16.10.2023
