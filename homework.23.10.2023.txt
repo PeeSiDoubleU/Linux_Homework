@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo -n "Your name is: " && echo | whoami
+echo -n "Your working directory is: " && echo | pwd
+echo -n "Number of users: " && echo | ps -ef | grep ssh | wc -l
+echo "done"
+
