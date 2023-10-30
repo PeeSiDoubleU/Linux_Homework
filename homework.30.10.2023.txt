@@ -1,0 +1,9 @@
+  GNU nano 2.9.8                                                                              taskDREWS.sh
+
+#!/bin/bash
+
+        for i in {1..10}
+        do
+        filename="${i}"_$(date '+%d_%m_%y')
+        touch /opt/180923_evening/drews/$filename
+        done
